@@ -5,6 +5,8 @@
   vars:
     packages:
     - gcc
+    - epel-release
+    - python36-devel
     - openssl-devel
     - bzip2-devel
     - libffi-devel

@@ -2,4 +2,4 @@
 - name: Converge
   hosts: all
   roles:
-    - role: ansible-python37-centos7
+    - role: ansible-python36-centos7
