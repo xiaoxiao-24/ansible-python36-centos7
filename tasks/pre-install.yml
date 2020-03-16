@@ -11,3 +11,10 @@
     - bzip2-devel
     - libffi-devel
   become: yes
+
+- name: Install pip
+  yum: 
+    name: python-pip
+
+- name: Update pip and setuptools
+  shell: "pip install --upgrade pip && pip install --upgrade setuptools"
