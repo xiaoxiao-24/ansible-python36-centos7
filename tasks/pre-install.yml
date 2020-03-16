@@ -7,7 +7,7 @@
     - gcc
     - epel-release
     - python36-devel
-    - libsqlite3-devel
+    - sqlite3-devel
     - openssl-devel
     - bzip2-devel
     - libffi-devel
